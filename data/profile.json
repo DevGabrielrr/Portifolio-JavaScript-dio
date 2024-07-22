@@ -2,7 +2,7 @@
   "name": "Gabriel Ribeiro",
   "photo": "https://avatars.githubusercontent.com/u/95862666?v=4",
   "job": "Desenvolvedor Junior EA Bank",
-  "location": "Porto Alegre,RS.",
+  "localidade": "Porto Alegre,RS.",
   "phone": "(51) 98254-7928",
   "email": "bieelrr4@gmail.com",
   "skills": {
@@ -48,10 +48,35 @@
       "Organização"
     ]
   },
-  "languages": [
-    "Português BR",
-    "Inglês (Básico)"
-    
+  "idiomas": [
+    {
+      "nome": "Português",
+      "nivel": "Nativo"
+    },
+    {
+      "nome": "Inglês",
+      "nivel": "Básico"
+    }
+  ],
+  "educacao": [
+    {
+      "nome": "Curso Superior Analise Desenvolvimento de Sistemas",
+      "descricao": "Curso superior, em andamento no 4 Semestre",
+      "instituicao": "Colégio Protasio Alves",
+      "periodo": {
+        "inicio": "2023",
+        "fim": "Atualmente"
+      }
+    },
+    {
+      "nome": "Tecnico em informatica p/Internet",
+      "descricao": "Curso Tecnico, estudos em HTLM,CSS, JavaScript, PHP e Mysql.",
+      "instituicao": "Colégio Protasio Alves",
+      "periodo": {
+        "inicio": "2021",
+        "fim": "2022"
+      }
+    }
   ],
   "portfolio": [
     {
@@ -71,6 +96,5 @@
       "period": "2023 - até o momento",
       "description": "comecei como desenvovledor full stack, atualmente estou na parte do front-end da empresa, em constante ensinamento e obtendo experi~encias nos projeto em andamento."
     }
-    
   ]
 }
