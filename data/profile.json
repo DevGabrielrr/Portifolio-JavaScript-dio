@@ -53,7 +53,7 @@
   "educacao": [
     {
       "nome": "Curso Superior Analise Desenvolvimento de Sistemas",
-      "descricao": "Curso superior, em andamento no 4 Semestre",
+      "descricao": "período: 4º Semestre",
       "instituicao": "Colégio Protasio Alves",
       "periodo": {
         "inicio": "2023",
@@ -95,7 +95,7 @@
   ],
   "professionalExperience": [
     {
-      "name": "Desenvolvedor Junior",
+      "name": "Desenvolvedor Junior | EA Bank",
       "period": "2023 - até o momento",
       "description": "comecei como desenvovledor full stack, atualmente estou na parte do front-end da empresa, em constante conhecimento e obtendo experiências nos projeto em andamento."
     }
