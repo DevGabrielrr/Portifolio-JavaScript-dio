@@ -47,26 +47,30 @@ function updateIdiomas(profileData) {
     idiomas.innerHTML = profileData.idiomas.map(skill => `<li>${skill.nome} (${skill.nivel})</li>`).join('')
 }
 
-function updateExperiencias(profileData) {
-    const experiencias = document.getElementById('profile.experiencias')
-    experiencias.innerHTML = profileData.experiencias.map(skill =>
-        `<li>
-            <h3 class="title">${skill.nome} | ${skill.instituicao}</h3>
-            <p class="period">${skill.periodo.inicio} | ${skill.periodo.fim}</p>
-            <p>${skill.descricao}</p>
-        </li>`
-    ).join('')
+function updateProfessionalExperience(profileData) {
+    const professionalExperience = document.getElementById('profile.professionalExperience')
+    professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
+        return `
+            <li>
+                <h3 class="title">${experience.name}</h3>
+                <p class="period">${experience.period}</p>
+                <p>${experience.description}</p>
+            </li>
+        `
+    }).join('')
 }
+
 
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
-    portfolio.innerHTML = profileData.portfolio.map(skill =>
-        `<li>
-            <h3 class="title github">${skill.nome}</h3>
-            <a href="${skill.gitHub}" target="_blank">${skill.gitHub}</a>
-            <p style='font-size:0.9em'>${skill.descricao}</p>
-        </li>`
-    ).join('')
+    portfolio.innerHTML = profileData.portfolio.map(project => {
+        return `
+            <li>
+                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
+                <a href="${project.url}" target="_blank">${project.url}</a>
+            </li>
+        `
+    }).join('')
 }
 
 function updateEducacao(profileData) {
@@ -86,7 +90,7 @@ function updateEducacao(profileData) {
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateIdiomas(profileData)
-    updateExperiencias(profileData)
+    updateProfessionalExperience(profileData)
     updatePortfolio(profileData)
     updateEducacao(profileData)
 })()

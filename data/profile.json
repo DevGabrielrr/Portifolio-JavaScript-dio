@@ -45,19 +45,11 @@
       "Responsabilidade",
       "Trabalho em equipe",
       "Flexibilidade",
-      "Organização"
+      "Organização",
+      "Facil Aprendizado"
     ]
   },
-  "idiomas": [
-    {
-      "nome": "Português",
-      "nivel": "Nativo"
-    },
-    {
-      "nome": "Inglês",
-      "nivel": "Básico"
-    }
-  ],
+
   "educacao": [
     {
       "nome": "Curso Superior Analise Desenvolvimento de Sistemas",
@@ -78,6 +70,17 @@
       }
     }
   ],
+  "idiomas": [
+    {
+      "nome": "Português",
+      "nivel": "Nativo"
+    },
+    {
+      "nome": "Inglês",
+      "nivel": "Básico"
+    }
+  ],
+ 
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
@@ -94,7 +97,7 @@
     {
       "name": "Desenvolvedor Junior",
       "period": "2023 - até o momento",
-      "description": "comecei como desenvovledor full stack, atualmente estou na parte do front-end da empresa, em constante ensinamento e obtendo experi~encias nos projeto em andamento."
+      "description": "comecei como desenvovledor full stack, atualmente estou na parte do front-end da empresa, em constante conhecimento e obtendo experiências nos projeto em andamento."
     }
   ]
 }
