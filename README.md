@@ -1,9 +1,11 @@
-<!-- ![Imagem do projeto](assets/img/Captura%20de%20tela%202024-07-22%20144058.png) -->
-
-# Criando e Estilizando uma Página de Portfólio Profissional com CSS e JavaScript | DIO
+# Portfólio Profissional com CSS e JavaScript | DIO
 Este é o meu portfólio, um projeto desenvolvido com HTML, CSS e JavaScript, concebido durante um curso na Digital Innovation One (DIO). Utilizei um arquivo JSON para armazenar os dados essenciais, organizados de forma estruturada para facilitar o acesso e a manipulação das informações. A integração de uma API foi crucial para recuperar dinamicamente esses dados de forma assíncrona, utilizando os conceitos modernos de async e await em JavaScript.
 
 Com HTML, construí a estrutura fundamental do meu portfólio, garantindo uma experiência de usuário bem organizada e acessível. O CSS foi responsável por estilizar cada elemento, tornando o layout atraente e alinhado com as melhores práticas de design web. Já o JavaScript desempenhou um papel crucial ao manipular os eventos da interface e ao implementar a lógica por trás da interação com a API e o arquivo JSON.
+
+
+![Imagem do projeto](assets/img/portifolioGabriel.png)
+
 
 ### Tecnologias Utilizadas
 - HTML5: para a estrutura do site.
