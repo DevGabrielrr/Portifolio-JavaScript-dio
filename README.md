@@ -5,7 +5,8 @@ Com HTML, construí a estrutura fundamental do meu portfólio, garantindo uma ex
 
 
 ![Imagem do projeto](assets/img/portifolioGabriel.png)
-
+### Veja o projeto
+[Link do projeto](https://devgabrielrr.github.io/Portifolio-JavaScript-dio/)
 
 ### Tecnologias Utilizadas
 - HTML5: para a estrutura do site.
@@ -44,3 +45,4 @@ Com HTML, construí a estrutura fundamental do meu portfólio, garantindo uma ex
     http-server
 
     ```
+
