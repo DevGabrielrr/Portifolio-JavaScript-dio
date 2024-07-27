@@ -14,7 +14,7 @@ Com HTML, construí a estrutura fundamental do meu portfólio, garantindo uma ex
 - JavaScript: para a interatividade e manipulação dos dados.
 - JSON: para o armazenamento dos dados do portfólio.
 - API: para a recuperação dos dados do JSON de maneira assíncrona.
-- GitHub Pages
+- GitHub Pages.
 
 ### Funcionalidades
 - [x] Recuperação de Dados: Meu portfólio se destaca pela eficiente recuperação de dados a partir de um arquivo JSON, utilizando uma chamada de API assíncrona para garantir que as informações sejam atualizadas em tempo real.
